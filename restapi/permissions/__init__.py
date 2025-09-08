@@ -1,0 +1,1 @@
+from restapi.permissions.CustomPermissions import IsAuthenticatedEmployee, IsAuthenticatedCompany, IsAuthenticatedOrganization
