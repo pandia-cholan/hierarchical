@@ -1,0 +1,448 @@
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git --version
+git version 2.51.0.windows.1
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>pip freeze > reqirements.txt
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git init
+Initialized empty Git repository in C:/Users/VRdella/PycharmProjects/Demo_GIT'/.git/
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>explorer .
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        kikidemo.py
+        reqirements.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add .
+warning: in the working copy of '.idea/inspectionProfiles/profiles_settings.xml', LF will be replaced by CRLF the next time Git touches it
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add .
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   kikidemo.py
+        new file:   reqirements.txt
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   reqirements.txt
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   reqirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ll.py
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add ll.py
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   ll.py
+        new file:   reqirements.txt
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   ll.py
+        new file:   reqirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add demo
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   demo/hello.py
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   ll.py
+        new file:   reqirements.txt
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   demo/hello.py
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   ll.py
+        new file:   reqirements.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/vcs.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo/hi.py
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add demo/hi.py
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/Demo_GIT'.iml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   demo/hello.py
+        new file:   demo/hi.py
+        new file:   hey.py
+        new file:   kikidemo.py
+        new file:   ll.py
+        new file:   reqirements.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/vcs.xml
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git commit -m "This is the demo git project"
+[master (root-commit) b1528b6] This is the demo git project
+ 12 files changed, 104 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/Demo_GIT'.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 demo/hello.py
+ create mode 100644 demo/hi.py
+ create mode 100644 hey.py
+ create mode 100644 kikidemo.py
+ create mode 100644 ll.py
+ create mode 100644 reqirements.txt
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch
+* master
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch -M keerthy
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git remote add origin https://github.com/Keerthy-1122/demo_rep.git
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Keerthy-1122/demo_rep.git'
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch
+* keerthy
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git push -u origin keerthy
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 2.40 KiB | 273.00 KiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Keerthy-1122/demo_rep.git
+ * [new branch]      keerthy -> keerthy
+branch 'keerthy' set up to track 'origin/keerthy'.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch
+* keerthy
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git checkout
+M       .idea/vcs.xml
+Your branch is up to date with 'origin/keerthy'.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git checkout pandi
+error: pathspec 'pandi' did not match any file(s) known to git
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch pandi
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git checkout pandi
+M       .idea/vcs.xml
+Switched to branch 'pandi'
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch
+  keerthy
+* pandi
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git clone -b pandi https://github.com/Keerthy-1122/demo_rep.git
+Cloning into 'demo_rep'...
+fatal: Remote branch pandi not found in upstream origin
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch pandi
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .idea/vcs.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add .
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch pandi
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .idea/vcs.xml
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git commit -m "This is the demo git on pandi branch"
+[pandi 9e83006] This is the demo git on pandi branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git clone -b pandi https://github.com/Keerthy-1122/demo_rep.git
+Cloning into 'demo_rep'...
+fatal: Remote branch pandi not found in upstream origin
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git push -u origin pandi
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 375 bytes | 187.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'pandi' on GitHub by visiting:
+remote:      https://github.com/Keerthy-1122/demo_rep/pull/new/pandi
+remote:
+To https://github.com/Keerthy-1122/demo_rep.git
+ * [new branch]      pandi -> pandi
+branch 'pandi' set up to track 'origin/pandi'.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git push -u origin pandi
+branch 'pandi' set up to track 'origin/pandi'.
+Everything up-to-date
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git commit -m "code added inside hi.py"
+On branch pandi
+Your branch is up to date with 'origin/pandi'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   demo/hi.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git add demo/hi.py
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git status
+On branch pandi
+Your branch is up to date with 'origin/pandi'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   demo/hi.py
+
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git push -u origin pandi
+branch 'pandi' set up to track 'origin/pandi'.
+Everything up-to-date
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git commit -m "code added inside hi.py"
+[pandi 2c219a7] code added inside hi.py
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git push -u origin pandi
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 567 bytes | 283.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Keerthy-1122/demo_rep.git
+   9e83006..2c219a7  pandi -> pandi
+branch 'pandi' set up to track 'origin/pandi'.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git clone -b keerthy https://github.com/pandia-cholan/hierarchical.git
+Cloning into 'hierarchical'...
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (88/88), done.
+remote: Compressing objects: 100% (75/75), done.
+remote: Total 88 (delta 10), reused 88 (delta 10), pack-reused 0 (from 0)
+Receiving objects: 100% (88/88), 34.23 KiB | 4.89 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 895 bytes | 895.00 KiB/s, done.
+From https://github.com/Keerthy-1122/demo_rep
+   b1528b6..6eab4c7  keerthy    -> origin/keerthy
+Already up to date.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git pull
+Already up to date.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git pull origin main
+fatal: couldn't find remote ref main
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git pull origin main
+fatal: couldn't find remote ref main
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>git branch
+  keerthy
+* pandi
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4C9E-FEB1
+
+ Directory of C:\Users\VRdella\PycharmProjects\Demo_GIT'
+
+09/08/2025  04:58 PM    <DIR>          .
+09/04/2025  06:15 PM    <DIR>          ..
+09/08/2025  05:45 PM    <DIR>          .idea
+09/08/2025  04:58 PM    <DIR>          hierarchical
+               0 File(s)              0 bytes
+               4 Dir(s)  111,869,296,640 bytes free
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'>cd hierarchical
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.40 KiB | 44.00 KiB/s, done.
+From https://github.com/pandia-cholan/hierarchical
+ * branch            main       -> FETCH_HEAD
+   e22d4b5..e128b48  main       -> origin/main
+Updating e22d4b5..e128b48
+Fast-forward
+ cmd.txt | 104 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 104 insertions(+)
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>git add cmd.txt
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>git status
+On branch keerthy
+Your branch is ahead of 'origin/keerthy' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>git commit -m "cmd pushed"
+On branch keerthy
+Your branch is ahead of 'origin/keerthy' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>git branch
+* keerthy
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>git push -u origin keerthy
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pandia-cholan/hierarchical.git
+   e22d4b5..e128b48  keerthy -> keerthy
+branch 'keerthy' set up to track 'origin/keerthy'.
+
+(new_env) C:\Users\VRdella\PycharmProjects\Demo_GIT'\hierarchical>
