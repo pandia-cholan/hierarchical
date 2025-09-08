@@ -1,0 +1,104 @@
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git init
+Initialized empty Git repository in C:/Users/VRDELLA GEST/Codings/Python/Django/CRM/.git/
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        CRM/
+        manage.py
+        requirement.txt
+        restapi/
+        summa.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git add .
+warning: in the working copy of '.idea/inspectionProfiles/profiles_settings.xml', LF will be replaced by CRLF the next time Git touches it
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git add .
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git commit -m "sample crm"
+[master (root-commit) 3ab9019] sample crm
+ 68 files changed, 910 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/CRM.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 CRM/__init__.py
+ create mode 100644 CRM/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 CRM/__pycache__/settings.cpython-39.pyc
+ create mode 100644 CRM/__pycache__/urls.cpython-39.pyc
+ create mode 100644 CRM/__pycache__/wsgi.cpython-39.pyc
+ create mode 100644 CRM/asgi.py
+ create mode 100644 CRM/settings.py
+ create mode 100644 CRM/urls.py
+ create mode 100644 CRM/wsgi.py
+ create mode 100644 manage.py
+ create mode 100644 requirement.txt
+ create mode 100644 restapi/__init__.py
+ create mode 100644 restapi/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 restapi/__pycache__/admin.cpython-39.pyc
+ create mode 100644 restapi/__pycache__/apps.cpython-39.pyc
+ create mode 100644 restapi/__pycache__/urls.cpython-39.pyc
+ create mode 100644 restapi/admin.py
+ create mode 100644 restapi/apps.py
+ create mode 100644 restapi/migrations/0001_initial.py
+ create mode 100644 restapi/migrations/__init__.py
+ create mode 100644 restapi/migrations/__pycache__/0001_initial.cpython-39.pyc
+ create mode 100644 restapi/migrations/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 restapi/models/CompanyModel.py
+ create mode 100644 restapi/models/OrganizationModel.py
+ create mode 100644 restapi/models/RegisterModel.py
+ create mode 100644 restapi/models/__init__.py
+ create mode 100644 restapi/models/__pycache__/CompanyModel.cpython-39.pyc
+ create mode 100644 restapi/models/__pycache__/OrganizationModel.cpython-39.pyc
+ create mode 100644 restapi/models/__pycache__/RegisterModel.cpython-39.pyc
+ create mode 100644 restapi/models/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 restapi/permissions/CustomPermissions.py
+ create mode 100644 restapi/permissions/__init__.py
+ create mode 100644 restapi/permissions/__pycache__/CustomPermissions.cpython-39.pyc
+ create mode 100644 restapi/permissions/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 restapi/serializers/CompanySerializer.py
+ create mode 100644 restapi/serializers/EmployeeSerializer.py
+ create mode 100644 restapi/serializers/OrganizationSerializer.py
+ create mode 100644 restapi/serializers/RegisterSerializer.py
+ create mode 100644 restapi/serializers/TokenUserSerializer.py
+ create mode 100644 restapi/serializers/__init__.py
+ create mode 100644 restapi/serializers/__pycache__/CompanySerializer.cpython-39.pyc
+ create mode 100644 restapi/serializers/__pycache__/EmployeeSerializer.cpython-39.pyc
+ create mode 100644 restapi/serializers/__pycache__/OrganizationSerializer.cpython-39.pyc
+ create mode 100644 restapi/serializers/__pycache__/RegisterSerializer.cpython-39.pyc
+ create mode 100644 restapi/serializers/__pycache__/TokenUserSerializer.cpython-39.pyc
+ create mode 100644 restapi/serializers/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 restapi/tests.py
+ create mode 100644 restapi/urls.py
+ create mode 100644 restapi/views/CompanyView.py
+ create mode 100644 restapi/views/EmployeeView.py
+ create mode 100644 restapi/views/GetViews.py
+ create mode 100644 restapi/views/IdGenerator.py
+ create mode 100644 restapi/views/LoginAndLogout.py
+ create mode 100644 restapi/views/OrganizationView.py
+ create mode 100644 restapi/views/__init__.py
+ create mode 100644 restapi/views/__pycache__/CompanyView.cpython-39.pyc
+ create mode 100644 restapi/views/__pycache__/EmployeeView.cpython-39.pyc
+ create mode 100644 restapi/views/__pycache__/GetViews.cpython-39.pyc
+ create mode 100644 restapi/views/__pycache__/IdGenerator.cpython-39.pyc
+ create mode 100644 restapi/views/__pycache__/LoginAndLogout.cpython-39.pyc
+ create mode 100644 restapi/views/__pycache__/OrganizationView.cpython-39.pyc
+ create mode 100644 restapi/views/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 summa.py
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git branch -M main
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git remote add origin https://github.com/pandia-cholan/hierarchical.git
+(.venv) PS C:\Users\VRDELLA GEST\Codings\Python\Django\CRM> git push -u origin main
+Enumerating objects: 84, done.
+Counting objects: 100% (84/84), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (81/81), done.
+Writing objects: 100% (84/84), 33.78 KiB | 752.00 KiB/s, done.
+Total 84 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/pandia-cholan/hierarchical.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
